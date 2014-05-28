@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/group9/!svn/ver/12/edu.iss.ects/src/edu/iss/ects/imp
+END
+BaseHibernateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/imp/BaseHibernateDAO.java
+END
+OrdersDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/group9/!svn/ver/7/edu.iss.ects/src/edu/iss/ects/imp/OrdersDAO.java
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/imp/UserDAO.java
+END
+ProductDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/group9/!svn/ver/12/edu.iss.ects/src/edu/iss/ects/imp/ProductDAO.java
+END
+CommentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/group9/!svn/ver/7/edu.iss.ects/src/edu/iss/ects/imp/CommentDAO.java
+END

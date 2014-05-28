@@ -1,0 +1,123 @@
+package edu.iss.ects.imp;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import edu.iss.ects.entity.*;
+import edu.iss.ects.exception.ManagerProductException;
+import junit.framework.TestCase;
+
+/**
+ * @author Microwind
+ * 
+ */
+public class TestOrders extends TestCase {
+
+	public void testAdd() throws ManagerProductException {
+
+		ProductDAO pd = new ProductDAO();
+		Product p1 = pd.findById(1);
+		Product p2 = pd.findById(3);
+		Product p3 = pd.findById(4);
+		Orderline l1 = new Orderline();
+		Orderline l2 = new Orderline();
+		Orderline l3 = new Orderline();
+		l1.setProduct(p1);
+		l1.setAmount(3);
+		l2.setProduct(p2);
+		l2.setAmount(2);
+		l3.setProduct(p3);
+		l3.setAmount(1);
+		ShopCart cart = new ShopCart();
+		cart.add(l1);
+		cart.add(l2);
+		cart.add(l3);
+
+		UserDAO ud = new UserDAO();
+		User u = ud.findById(1);
+		Payway pw = new Payway();
+		pw.setPaywayId(1);
+		Orderstatus os = new Orderstatus();
+		os.setOrderstatusId(1);
+
+		Orders o = cart.getOrder();
+		o.setUser(u);
+		o.setPayway(pw);
+		o.setOrderstatus(os);
+		o.setCost(cart.getTotal());
+
+		l1.setOrder(o);
+		l2.setOrder(o);
+		l3.setOrder(o);
+		OrdersDAO od = new OrdersDAO();
+		od.save(o);
+
+	}
+
+	public void testDelete() {
+
+		Orders o = new Orders();
+		OrdersDAO od = new OrdersDAO();
+		o = od.findById(3);
+		od.delete(o);
+
+	}
+
+	public void testFindAll() {
+
+		OrdersDAO od = new OrdersDAO();
+		List list = od.findAll();
+		Iterator it = list.iterator();
+		while (it.hasNext()) {
+			Orders o = (Orders) it.next();
+			System.out.println(o.getOrderId() + " " + o.getUser().getName()
+					+ " " + o.getCount() + " " + o.getCost() + " "
+					+ o.getPayway().getPaystyle() + " "
+					+ o.getOrderstatus().getName());
+		}
+
+	}
+
+	public void testFindByUserId() {
+
+		List list = new ArrayList();
+		OrdersDAO cd = new OrdersDAO();
+		list = cd.findByUserId(1);
+		Iterator it = list.iterator();
+		while (it.hasNext()) {
+			Orders o = (Orders) it.next();
+			System.out.println(o.getOrderId() + " " + o.getUser().getName()
+					+ " " + o.getCount() + " " + o.getCost() + " "
+					+ o.getPayway().getPaystyle() + " "
+					+ o.getOrderstatus().getName());
+		}
+
+	}
+
+	public void testFindById() {
+
+		OrdersDAO od = new OrdersDAO();
+		Orders o = od.findById(1);
+		System.out.println(o.getOrderId() + " " + o.getUser().getName() + " "
+				+ o.getCount() + " " + o.getCost() + " "
+				+ o.getPayway().getPaystyle() + " "
+				+ o.getOrderstatus().getName());
+
+	}
+
+	public void testFindByOrderId() {
+
+		List list = new ArrayList();
+		OrdersDAO cd = new OrdersDAO();
+		list = cd.findByOrderId(1);
+		Iterator it = list.iterator();
+		while (it.hasNext()) {
+			Orderline ol = (Orderline) it.next();
+			System.out.println(ol.getOrderlineId() + " "
+					+ ol.getProduct().getName() + " " + ol.getAmount());
+		}
+
+	}
+
+}

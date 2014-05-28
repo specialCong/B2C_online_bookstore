@@ -1,0 +1,25 @@
+#MyEclipse Hibernate Properties
+#Thu Jul 29 16:11:20 CST 2010
+sessionFactoryName=edu.iss.ects.util.HibernateSessionFactory
+genBasicCompId=true
+profile=
+daoSFId=
+version=3.2
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=true
+reSettingsFile=
+configFile=/edu.iss.ects/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true
+baseDaoClass=edu.iss.ects.imp.BaseHibernateDAO

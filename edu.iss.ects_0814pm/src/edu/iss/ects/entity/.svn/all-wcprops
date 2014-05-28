@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity
+END
+Category.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Category.hbm.xml
+END
+Comment.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Comment.java
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/User.hbm.xml
+END
+Orderstatus.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Orderstatus.hbm.xml
+END
+Country.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Country.java
+END
+Product.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Product.hbm.xml
+END
+Orderline.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Orderline.hbm.xml
+END
+Contactinfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Contactinfo.java
+END
+Province.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Province.hbm.xml
+END
+Payway.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Payway.java
+END
+Entity.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Entity.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Category.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/User.java
+END
+Orderstatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Orderstatus.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Product.java
+END
+Orders.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Orders.hbm.xml
+END
+Orderline.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Orderline.java
+END
+ShopCart.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/ShopCart.java
+END
+Province.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Province.java
+END
+Comment.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Comment.hbm.xml
+END
+Country.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Country.hbm.xml
+END
+Contactinfo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Contactinfo.hbm.xml
+END
+Payway.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Payway.hbm.xml
+END
+Orders.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/entity/Orders.java
+END

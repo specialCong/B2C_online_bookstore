@@ -1,0 +1,30 @@
+package edu.iss.ects.biz;
+
+import java.util.Collection;
+import edu.iss.ects.entity.*;
+import edu.iss.ects.exception.ManagerProductException;
+import edu.iss.ects.imp.ProductDAO;
+
+public class ProductBiz {
+
+	private ProductDAO dao = new ProductDAO();
+	private ShopCart cart = new ShopCart();
+
+	public Product findById(Integer id) throws ManagerProductException {
+		return dao.findById(id);
+	}
+
+	public Collection findAll() throws ManagerProductException {
+		return dao.findAll();
+	}
+
+	public int getTotal() throws ManagerProductException {
+		return cart.getCount();
+	}
+
+	public Collection findByName(Product product)
+			throws ManagerProductException {
+		return dao.findByName(product);
+	}
+
+}

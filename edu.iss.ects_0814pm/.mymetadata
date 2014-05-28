@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="edu.iss.ects"
+  id="myeclipse.1280890635315"
+  context-root="/edu.iss.ects"
+  j2ee-spec="5.0"
+  archive="edu.iss.ects.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

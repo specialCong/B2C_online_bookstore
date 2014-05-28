@@ -1,0 +1,52 @@
+package edu.iss.ects.servlet;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import edu.iss.ects.entity.Entity;
+import edu.iss.ects.imp.ProductDAO;
+
+public class GetProductList extends HttpServlet {
+
+	/**
+	 * The doPost method of the servlet. <br>
+	 */
+	@Override
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		this.doPost(request, response);
+	}
+
+	@Override
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		response.setContentType("text/html; charset=UTF-8");
+		System.out.println("到达  getproductlist  ..................");
+
+		// 专门取出产品列表信息
+		// 得到产品列表
+		ProductDAO pd = new ProductDAO();
+		List<Entity> list = pd.findAll();
+		System.out.println("获取图书列表" + list);
+		// 把产品列表对象传递给页面 productList.jsp
+		// 如果把产品保存在 request 对象中传递，到达下一个页面后就失效
+		// 产品信息，不需要经常变化，所以需要使用 更长的有效期
+		// request.setAttribute("plist", list);
+		// 创建 session 对象，之前已经创建过，不需要新建，直接使用已有的
+		HttpSession session = request.getSession();
+		System.out.println("productServlet sessionID :" + session.getId());
+		session.setAttribute("plist", list);
+
+		request.getRequestDispatcher("productlist.jsp").forward(request,
+				response);
+	}
+
+}

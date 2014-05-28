@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/exception
+END
+ManagerOrderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/exception/ManagerOrderException.java
+END
+ManagerUserException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/exception/ManagerUserException.java
+END
+ManagerProductException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/group9/!svn/ver/5/edu.iss.ects/src/edu/iss/ects/exception/ManagerProductException.java
+END
